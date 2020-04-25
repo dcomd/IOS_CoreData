@@ -13,6 +13,8 @@
 		873404812453FB8A0007C14F /* Notas.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8734047F2453FB8A0007C14F /* Notas.xcdatamodeld */; };
 		873404832453FB8C0007C14F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 873404822453FB8C0007C14F /* Assets.xcassets */; };
 		873404862453FB8C0007C14F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873404842453FB8C0007C14F /* LaunchScreen.storyboard */; };
+		8734048E2453FCDA0007C14F /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8734048D2453FCDA0007C14F /* TableViewController.swift */; };
+		873404902454003D0007C14F /* executeActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8734048F2454003D0007C14F /* executeActions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		873404822453FB8C0007C14F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		873404852453FB8C0007C14F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873404872453FB8C0007C14F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8734048D2453FCDA0007C14F /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		8734048F2454003D0007C14F /* executeActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = executeActions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				873404842453FB8C0007C14F /* LaunchScreen.storyboard */,
 				873404872453FB8C0007C14F /* Info.plist */,
 				8734047F2453FB8A0007C14F /* Notas.xcdatamodeld */,
+				8734048D2453FCDA0007C14F /* TableViewController.swift */,
+				8734048F2454003D0007C14F /* executeActions.swift */,
 			);
 			path = Notas;
 			sourceTree = "<group>";
@@ -139,8 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8734047B2453FB8A0007C14F /* ViewController.swift in Sources */,
+				873404902454003D0007C14F /* executeActions.swift in Sources */,
 				873404812453FB8A0007C14F /* Notas.xcdatamodeld in Sources */,
 				873404792453FB8A0007C14F /* AppDelegate.swift in Sources */,
+				8734048E2453FCDA0007C14F /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
